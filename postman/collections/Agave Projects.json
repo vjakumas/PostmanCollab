@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "c19413e5-ff01-45b5-b1d0-f16d24726e14",
+		"name": "Agave Projects",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "23775058-c19413e5-ff01-45b5-b1d0-f16d24726e14"
+	},
+	"item": [
+		{
+			"name": "Get Projects",
+			"id": "ed85691b-296f-49d6-860f-604f3fd0699f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-flowforma-agaveaccounttokenid",
+						"value": "34"
+					},
+					{
+						"key": "API-Version",
+						"value": "2021/01/25"
+					}
+				],
+				"url": {
+					"raw": "https://local.flowforma.com/api/integrations/agave/projects",
+					"protocol": "https",
+					"host": [
+						"local",
+						"flowforma",
+						"com"
+					],
+					"path": [
+						"api",
+						"integrations",
+						"agave",
+						"projects"
+					]
+				},
+				"description": "This Agave endpoint works good (wow!)"
+			},
+			"response": []
+		}
+	]
+}
